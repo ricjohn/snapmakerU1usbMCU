@@ -11,6 +11,7 @@ How to setup
 - enable ssh access
 - log into printer via ssh with root permissions
 - execute restore_second_mcu.sh to setup permissions for klipper to access the mcu on the external usb port
+-- adapt usb id to match your mcu 
 - add the config file using the new mcu to /home/lava/printer_data/config/extended/klipper/ (or to /extended/klipper/ in the fluidd config ui)
-  - adapt the config file to match the connected hardware 
+-- adapt the config file to match the connected hardware 
 - make sure to connect the new mcu to the rear usb port before restarting klipper with the new config
